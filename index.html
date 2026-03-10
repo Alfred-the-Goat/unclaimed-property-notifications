@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unclaimed Property Notification Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --ink: #1a1a2e;
+            --body: #3a3a4a;
+            --muted: #6b6b7b;
+            --border: #d4d4dc;
+            --surface: #fafafa;
+            --bg: #ffffff;
+            --accent: #2c5282;
+            --accent-light: #ebf2fa;
+        }
+
+        body {
+            font-family: 'Source Sans 3', -apple-system, sans-serif;
+            color: var(--body);
+            background: var(--bg);
+            line-height: 1.7;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--ink);
+            padding-bottom: 24px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.05rem;
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        h2 {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-top: 36px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .highlight-box {
+            background: var(--accent-light);
+            border-left: 3px solid var(--accent);
+            padding: 16px 20px;
+            border-radius: 0 6px 6px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .opt-out-box {
+            background: var(--surface);
+            border: 2px solid var(--ink);
+            border-radius: 8px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .opt-out-box p {
+            margin-bottom: 8px;
+        }
+
+        .opt-out-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .bold-keyword {
+            font-weight: 700;
+            font-size: 1.05em;
+            color: var(--ink);
+        }
+
+        .links {
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 24px;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Unclaimed Property Notification Service</h1>
+            <p class="subtitle">Operated by Levi Dugan</p>
+        </header>
+
+        <h2>What We Do</h2>
+        <p>We help organizations discover and reclaim unclaimed property held by state governments. Unclaimed property can include uncashed checks, forgotten deposits, insurance proceeds, and other financial assets that have been turned over to the state after a period of inactivity.</p>
+        <p>Many organizations are unaware that they have funds waiting to be claimed. We identify potential matches between state unclaimed property databases and publicly listed organizations, then reach out to let them know.</p>
+
+        <div class="highlight-box">
+            <p>This is a free informational service. We do not charge for notifications, and we are not affiliated with any state government agency.</p>
+        </div>
+
+        <h2>How It Works</h2>
+        <p>We cross-reference publicly available state unclaimed property records with publicly listed organizations. When we find a potential match, we send a one-time notification via SMS, email, or phone to let the organization know that unclaimed funds may be available to them. We then provide guidance on how to file a claim through the appropriate state program.</p>
+
+        <h2>Opting Out</h2>
+        <div class="opt-out-box">
+            <p>If you received a message from us and would like to stop all communications, reply with:</p>
+            <p><span class="bold-keyword">STOP</span></p>
+            <p>For help or questions, reply with:</p>
+            <p><span class="bold-keyword">HELP</span></p>
+            <p>You can also reach us directly at <strong>levi.dugan@bellsouth.net</strong></p>
+        </div>
+
+        <h2>Contact</h2>
+        <p>If you have any questions about this service or about a notification you received, please contact us at <strong>levi.dugan@bellsouth.net</strong>.</p>
+
+        <div class="links">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+            <a href="Terms_and_Conditions.html">Terms &amp; Conditions</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Levi Dugan. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
